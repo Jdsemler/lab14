@@ -51,6 +51,7 @@ class MyApp:
                 
                 if (targetx1 < x1 and targetx2 > x2) and (targety1 < y1 and targety2 > y2):
                     drawpad.itemconfig(target,fill="red")
+                
 		# Ensure that we are doing our collision detection
 		# After we move our object!
 	
