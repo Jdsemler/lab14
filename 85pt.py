@@ -58,7 +58,7 @@ class MyApp:
 		if x1 > 0:
 		    drawpad.move(oval,-20,0)
         def button2Click(self, event):   
-		# Make the oval move to the left!
+		# Make the oval move to the right!
                 # "global" makes sure that we can access our oval and our drawpad
                 # Add in boundary detection
 		global oval
